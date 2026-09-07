@@ -1,0 +1,274 @@
+<style>
+
+/* ♡ KATIE'S CUTE SPACEHEY THEME ♡ */
+
+:root {
+  --dark: #4b2637;
+  --black: #2a1720;
+  --pink: #ffb7d5;
+  --hotpink: #ff75ad;
+  --lightpink: #ffe3ef;
+  --white: #fff9fc;
+}
+
+/* BACKGROUND */
+body {
+  background:
+    radial-gradient(circle at 20% 20%, #ffffff 0 2px, transparent 3px),
+    radial-gradient(circle at 75% 35%, #ffd6e7 0 2px, transparent 3px),
+    linear-gradient(135deg, #fff8fc, #ffdbea, #fff1f7, #ffcddd);
+
+  background-size:
+    45px 45px,
+    35px 35px,
+    cover;
+
+  background-attachment: fixed;
+  color: #4b2637;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+/* MAIN PROFILE */
+main {
+  background: rgba(255, 255, 255, 0.95);
+  border: 3px solid var(--pink);
+  border-radius: 15px;
+  box-shadow:
+    0 0 0 3px #ffffff,
+    0 0 20px #ffb6d5;
+  padding: 10px;
+}
+
+/* PROFILE NAME */
+.profile h1 {
+  color: var(--hotpink);
+  font-family: Georgia, serif;
+  font-style: italic;
+  text-shadow:
+    1px 1px 0 #ffffff,
+    2px 2px 0 #ffd0e2;
+}
+
+/* PROFILE PIC */
+.profile-pic img {
+  border: 4px solid var(--pink);
+  border-radius: 12px;
+  box-shadow:
+    4px 4px 0 #ffd6e7,
+    0 0 12px #ff75ad;
+}
+
+/* HEADINGS */
+.heading {
+  background: linear-gradient(
+    90deg,
+    #ffc4dc,
+    #ff8fbc,
+    #ffc4dc
+  ) !important;
+
+  color: #ffffff !important;
+  border: 2px solid #ffb7d5;
+  border-radius: 8px 8px 0 0;
+  padding: 5px !important;
+}
+
+.heading h4 {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px #d63378;
+}
+
+/* PROFILE BOXES */
+.contact,
+.table-section,
+.blurbs,
+.profile-info {
+  border: 2px solid var(--pink) !important;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 3px 3px 0 #ffd6e7;
+}
+
+/* TABLES */
+.details-table td,
+.comments-table td {
+  background-color: #fff7fb !important;
+  color: #4b2637 !important;
+  border-color: #ffc4dc !important;
+}
+
+.details-table td:first-child {
+  background-color: #ffd6e7 !important;
+  color: #6d2d49 !important;
+  font-weight: bold;
+}
+
+/* LINKS */
+a {
+  color: #d63378;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff75ad;
+  text-decoration: underline wavy;
+}
+
+/* CONTACT LINKS */
+.contact .inner a {
+  color: #d63378 !important;
+}
+
+/* FRIENDS */
+.friends {
+  border-radius: 10px;
+}
+
+.friend img {
+  border: 2px solid var(--pink) !important;
+  border-radius: 8px;
+}
+
+.friend:hover {
+  transform: translateY(-2px);
+}
+
+/* COMMENTS */
+.comments-table {
+  border: 2px solid #ffb7d5;
+  border-radius: 10px;
+}
+
+.comments-table td:first-child {
+  background: #ffd8e8 !important;
+}
+
+/* ONLINE */
+.online {
+  color: #ff4f9a !important;
+  font-weight: bold;
+}
+
+/* TEXT SELECTION */
+::selection {
+  background: #ff9fc4;
+  color: #ffffff;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff0f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff9fc4;
+  border: 2px solid #fff0f6;
+  border-radius: 10px;
+}
+
+/* NAVBAR TOP */
+nav .top {
+  background: #ffb7d5 !important;
+}
+
+/* NAVBAR LINKS */
+nav .links {
+  background: #ffe3ef !important;
+}
+
+nav .links a {
+  color: #8a3458 !important;
+}
+
+/* FOOTER */
+footer {
+  background: #ffe3ef !important;
+  color: #8a3458 !important;
+  border-top: 3px solid #ff9fc4;
+}
+
+footer a {
+  color: #d63378 !important;
+}
+
+/* LITTLE FLOATING STARS */
+body:before {
+  content: "♡  ⋆｡°✩  ♡  ✩°｡⋆  ♡";
+  position: fixed;
+  bottom: 10px;
+  left: 15px;
+  color: #ff75ad;
+  font-size: 18px;
+  z-index: 999;
+  text-shadow: 1px 1px #ffffff;
+}
+
+/* CUTE BOX FOR CUSTOM BIO */
+.cute-box {
+  background: #fff0f6;
+  border: 2px dashed #ff75ad;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 8px 0;
+  box-shadow: 3px 3px 0 #ffd6e7;
+}
+
+/* CUTE TITLES */
+.cute-title {
+  color: #d63378;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* MARQUEE */
+.cute-marquee {
+  background: #ffe3ef;
+  color: #d63378;
+  border: 2px solid #ff75ad;
+  padding: 5px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* STATUS */
+.profile .status {
+  color: #d63378 !important;
+}
+
+/* PROFILE INFO */
+.profile-info {
+  background: #fff7fb !important;
+}
+
+/* BLURBS BACKGROUND */
+.blurbs .inner {
+  background: #fffafd !important;
+}
+
+/* FRIEND SPACE BACKGROUND */
+.friends .inner {
+  background: #fffafd !important;
+}
+
+/* CONTACT BOX BACKGROUND */
+.contact .inner {
+  background: #fff7fb !important;
+}
+
+/* GENERAL PARAGRAPH TEXT */
+p {
+  color: #4b2637;
+}
+
+/* SMALL TEXT */
+small {
+  color: #a04c70;
+}
+
+</style>
