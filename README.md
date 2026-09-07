@@ -50,9 +50,10 @@ The main colors are located near the top of the CSS:
 
 Change the hex codes to create your own version.
 
+
 ## ♡ Preview
 
-Add a screenshot of the finished profile here.
+![SpaceHey Theme Preview](preview.png)
 
 ## ✧ Credit
 
