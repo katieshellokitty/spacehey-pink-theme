@@ -17,11 +17,15 @@ A cute pink and white SpaceHey profile theme with soft Y2K-inspired styling.
 ## ♡ How to Use
 
 1. Open the `style.css` file.
-2. Copy all of the CSS.
+2. Copy everything in the file.
 3. Go to your SpaceHey profile.
 4. Click **Edit Profile**.
 5. Go to your **About Me** section.
-6. Paste the CSS between these tags:
+6. Paste the code at the top of your About Me.
+7. Save your profile.
+
+That's it! The `<style>` tags are already included in the file. ♡
+
 
 ```html
 <style>
